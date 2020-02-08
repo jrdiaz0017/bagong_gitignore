@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.player1{
+    background-color: black;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    top: 55px;
+    position: relative;
+}
+
+.controls {
+    height: 100px;
+    width: 150px;
+    border: 1px solid gray;
+    position: fixed;
+    top: 430px;
+    left: 540px;
+}
+
+.up{
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.arrow:before {
+    content: '\002191';
+}
+
+.arrow{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top: 7px;
+    left: 40px;
+    border: 1px solid gray;
+}
+
+
+

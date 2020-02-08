@@ -83,6 +83,11 @@
     left: 75px;
     border: 1px solid gray;
 }
+.left-arrow~div,.left-arrow{
+background-color:yellow;
+
+}
+
 
 .right-arrow:before {
     content: '\002192';
